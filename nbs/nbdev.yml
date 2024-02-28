@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "new-notebook"
+  site-url: "https://adamaslan.github.io/new-notebook"
+  description: "new NB"
+  repo-branch: main
+  repo-url: "https://github.com/adamaslan/new-notebook"
