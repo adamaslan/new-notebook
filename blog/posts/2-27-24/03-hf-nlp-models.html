@@ -107,11 +107,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="../../../styles.css">
 <meta property="og:title" content="new-notebook - Lesson 3: HuggingFace NLP Models">
 <meta property="og:description" content="new NB">
-<meta property="og:image" content="https://adamaslan.github.io/new-notebook/blog/posts/post1/llama.jpeg">
+<meta property="og:image" content="https://adamaslan.github.io/new-notebook/blog/posts/2-27-24/llama.jpeg">
 <meta property="og:site_name" content="new-notebook">
 <meta name="twitter:title" content="new-notebook - Lesson 3: HuggingFace NLP Models">
 <meta name="twitter:description" content="new NB">
-<meta name="twitter:image" content="https://adamaslan.github.io/new-notebook/blog/posts/post1/llama.jpeg">
+<meta name="twitter:image" content="https://adamaslan.github.io/new-notebook/blog/posts/2-27-24/llama.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -709,11 +709,11 @@ Return:
 <section id="true-huggingface-magic-auto-classes" class="level1">
 <h1>True HuggingFace magic: <code>Auto</code> classes</h1>
 <p>With <code>Auto</code> classes, we don’t have to know the exact or proper name of the LLM’s objects to import them. We only need the proper name of the model on the hub:</p>
-<div id="cell-68" class="cell" data-execution_count="1">
+<div id="cell-68" class="cell" data-execution_count="48">
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># viewing our distilbert model's name</span></span>
 <span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>model_name</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-error">
-<pre><code>NameError: name 'model_name' is not defined</code></pre>
+<div class="cell-output cell-output-display" data-execution_count="48">
+<pre><code>'distilbert-base-uncased-finetuned-sst-2-english'</code></pre>
 </div>
 </div>
 <p>Run the cell below to import the Auto classes. Then we’ll use them with the model name to create an even cleaner <code>simple_pipeline</code>.</p>

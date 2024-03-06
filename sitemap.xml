@@ -2,22 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://adamaslan.github.io/new-notebook/blog/index.html</loc>
-    <lastmod>2024-03-06T00:57:03.996Z</lastmod>
+    <lastmod>2024-03-06T01:08:01.967Z</lastmod>
   </url>
   <url>
     <loc>https://adamaslan.github.io/new-notebook/blog/posts/post1/index.html</loc>
-    <lastmod>2024-03-06T00:57:25.244Z</lastmod>
+    <lastmod>2024-03-06T00:41:32.685Z</lastmod>
   </url>
   <url>
-    <loc>https://adamaslan.github.io/new-notebook/core.html</loc>
-    <lastmod>2024-03-06T00:57:25.164Z</lastmod>
+    <loc>https://adamaslan.github.io/new-notebook/00_core.html</loc>
+    <lastmod>2023-04-27T10:12:58.000Z</lastmod>
   </url>
   <url>
     <loc>https://adamaslan.github.io/new-notebook/index.html</loc>
-    <lastmod>2024-03-06T00:57:03.996Z</lastmod>
-  </url>
-  <url>
-    <loc>https://adamaslan.github.io/new-notebook/blog/posts/index.html</loc>
-    <lastmod>2024-03-06T00:57:25.200Z</lastmod>
+    <lastmod>2024-03-06T00:49:40.532Z</lastmod>
   </url>
 </urlset>
