@@ -1,6 +1,6 @@
 ```yaml
 ---
-title: Example Blog
+title: Example Blog-take2
 subtitle: Publishing with Quarto and nbdev
 listing:
   sort: "date desc"
